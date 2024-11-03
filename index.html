@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alauddin Qureshi - SENIOR .NET ENGINEER & ARCHITECT Portfolio</title>
+    <style>
+        /* General Styles */
+        :root {
+          --primary-color: #3498db;
+          --secondary-color: #2c3e50;
+          --text-color: #333;
+          --background-color: #f4f4f4;
+        }
+
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: 'Arial', sans-serif;
+          line-height: 1.6;
+          color: var(--text-color);
+          background-color: var(--background-color);
+        }
+
+        .container {
+          width: 80%;
+          margin: auto;
+          overflow: hidden;
+          padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 1rem 0;
+          text-align: center;
+        }
+
+        header h1 {
+          margin-bottom: 0.5rem;
+        }
+
+        /* Navigation Styles */
+        nav {
+          background-color: var(--secondary-color);
+          color: #fff;
+        }
+
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+
+        nav ul li {
+          padding: 1rem;
+        }
+
+        nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+          color: var(--primary-color);
+        }
+
+        /* Main Content Styles */
+        main {
+          padding: 2rem 0;
+        }
+
+        section {
+          margin-bottom: 2rem;
+        }
+
+        h2 {
+          color: var(--primary-color);
+          margin-bottom: 1rem;
+          border-bottom: 2px solid var(--primary-color);
+          padding-bottom: 0.5rem;
+        }
+
+        /* Experience and Projects Styles */
+        article {
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 1rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        article h3 {
+          color: var(--secondary-color);
+          margin-bottom: 0.5rem;
+        }
+
+        /* Skills Styles */
+        #skills ul {
+          list-style-type: none;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+        }
+
+        #skills ul li {
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 0.5rem 1rem;
+          margin: 0.5rem;
+          border-radius: 20px;
+          font-size: 0.9rem;
+        }
+
+        /* Contact Styles */
+        #contact p {
+          margin-bottom: 0.5rem;
+        }
+
+        #contact a {
+          color: var(--primary-color);
+          text-decoration: none;
+        }
+
+        #contact a:hover {
+          text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+          background-color: var(--secondary-color);
+          color: #fff;
+          text-align: center;
+          padding: 1rem 0;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+
+        .job-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+        }
+
+        .job-date {
+          font-size: 0.9em; /* Adjust the font size as needed */
+          color: darkgray; /* Optional: change the color to make it subtle */
+        }
+
+        ul {
+          padding-left: 20px; /* Adds indentation for the list items */
+          list-style-type: disc; /* Use disc bullets or choose your preferred style */
+        }
+
+        ul li {
+          margin-bottom: 5px; /* Adds space between items */
+          font-size: 0.95em; /* Adjust font size if needed */
+        }
+
+        ol {
+          padding-left: 20px; /* Adds indentation for the list items */
+          list-style-type: disc; /* Use disc bullets or choose your preferred style */
+        }
+
+        ol li {
+          margin-bottom: 5px; /* Adds space between items */
+          font-size: 0.95em; /* Adjust font size if needed */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .container {
+            width: 95%;
+          }
+
+          nav ul {
+            flex-direction: column;
+          }
+
+          nav ul li {
+            text-align: center;
+          }
+
+          #skills ul {
+            justify-content: center;
+          }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alauddin Qureshi</h1>
+        <p>SENIOR .NET ENGINEER & ARCHITECT</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#OtherProjects">Other Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section id="summary">
+                <h2>Career Objective</h2>
+                <p>Dedicated and results-driven senior .NET Engineer & Architect with over 17 years of hands-on experience in designing, developing, and implementing robust software solutions. Adept at
+                  leading cross-functional teams and collaborating with stakeholders to deliver high-quality, scalable, and innovative applications. Proven expertise in designing end-to-end solutions using
+                  the latest Microsoft technologies and frameworks. Possess a comprehensive understanding of the software development life cycle, coupled with strong analytical and problem-solving skills.
+                  Committed to staying abreast of industry trends and emerging technologies to drive continuous improvement. Seeking to contribute my skills and leadership in a dynamic organization poised
+                  for growth and technological advancement.</p>
+            </section>
+
+            <section id="experience">
+              <h2>Experience</h2>
+              <article>
+                  <div class="job-header">
+                      <h3>Lead .NET Engineer & Architect</h3>
+                      <p class="job-date">Senior .NET Engineer & Architect | June 2022 - Present</p>
+                  </div>
+                  <h5>Amnexis, Dublin Ireland</h5>
+                  <h5><a href="https://www.amnexis.com" target="_blank">www.amnexis.com</a></h5>
+                  <p>I spearheaded the design and development of the Windows/Desktop administrator application, EVA Homecare. This comprehensive system encompasses various essential
+                     sections, including Patient Management, Staff Management, Doctor Management, Patient Visits Scheduling, Staff Live Tours (Visits), Staff Invoicing Management, Patient Billing
+                     Management, Vehicles Management, Inventory Management, and Reporting & Analytics. Each section is designed carefully to cater to distinct functionalities, guaranteeing a smooth and
+                     effective workflow for comprehensive administration in the homecare context.</p>
+                     <br>
+                  <h5>Tools & Skills</h5>
+                  <ul>
+                      <li>Rest API to integrate the application with cloud server.</li>
+                      <li>SQL Server Express 2019 Local DB/database to perform offline operations.</li>
+                      <li>Developed custom User Interfaces such as hexagon buttons.</li>
+                      <li>Integrated web views to render Web Interfaces locally.</li>
+                      <li>Worked with SVG icons.</li>
+                      <li>Used third-party controls & toolkits (Telerik Rad Controls, AJAX Toolkit, etc.)</li>
+                      <li>Crystal report for generating in-depth decision-driven reports.</li>
+                      <li>ADO .Net architecture/ XML structure to generate reports.</li>
+                  </ul>
+              </article>
+              
+              <article>
+                <div class="job-header">
+                    <h3>Team Lead / Director of Management Information System</h3>
+                    <p class="job-date"> Mar 2017 – May 2022 (5 Years 2 Months)</p>
+                </div>
+                <h5>Kardan University, Kabul Afghanistan</h5>
+                <h5><a href="https://www.kardan.edu.af" target="_blank">www.kardan.edu.af</a></h5>
+              </article>
+              
+              <article>
+                <div class="job-header">
+                    <h3>Senior .NET Engineer</h3>
+                    <p class="job-date"> Jun 2014 – Feb 2017 (2 Years 9 Months)</p>
+                </div>
+                <h5>Kardan University, Kabul Afghanistan</h5>
+                <h5><a href="https://www.kardan.edu.af" target="_blank">www.kardan.edu.af</a></h5>
+              </article>
+
+              <article>
+                <div class="job-header">
+                    <h3>.NET Engineer / Database Administrator</h3>
+                    <p class="job-date"> Jul 2010 – May 2014 (3 Year 11 Months)</p>
+                </div>
+                <h5>Kardan University, Kabul Afghanistan</h5>
+                <h5><a href="https://www.kardan.edu.af" target="_blank">www.kardan.edu.af</a></h5>
+              </article>
+
+              <article>
+                <div class="job-header">
+                    <h3>Database Administrator</h3>
+                    <p class="job-date"> Oct 2007 – Jun 2010</p>
+                </div>
+                <h5>Kardan University, Kabul Afghanistan</h5>
+                <h5><a href="https://www.kardan.edu.af" target="_blank">www.kardan.edu.af</a></h5>
+                <h5>Responsibilities :</h5>
+                <p>Led the development of key digital solutions during my tenure, contributing significantly to the technological infrastructure of Kardan University. Notable achievements include the creation of
+                  the university's official website (https://kardan.edu.af/) and a customized web-based Learning Management System tailored to the institution's unique needs. Demonstrating versatility, I
+                  designed and implemented comprehensive portals for various stakeholders, such as VC Academic, Registrar, Dean, Lecturer (https://portal.kardan.edu.af/Login.aspx), and a dedicated
+                  portal for students (https://portal.kardan.edu.af/student/login). Moreover, I engineered a desktop application for the Finance Department, featuring essential financial reports like
+                  vouchers, ledgers, trial balances, income statements, balance sheets, owner equity, and other relevant reports. The scope of my contributions extended to the development of a web-based
+                  Human Resource Management System and Inventory Management System, further optimizing organizational processes. Additionally, I played a pivotal role in enhancing the university's
+                  operational efficiency by developing a web-based Library Management System. Furthermore, I created a comprehensive portal for Kardan Alumni and web portals for the Kardan Schools of
+                  Excellence, encompassing functionalities related to admissions, fees, examinations, and HR. These initiatives collectively reflect my commitment to advancing technology in education and
+                  organizational management</p>
+                  <br>
+                <h5>Web Development Tools and Skills</h5>
+                <ul>
+                    <li>Conducted pre-development analysis, requirements study, and screen finalization.</li>
+                    <li>Implemented applications using VB .Net, ASP.NET, AJAX, JQuery, and CSS.</li>
+                    <li>Designed user interfaces with Bootstrap for effective web layout.</li>
+                    <li>Utilized ASP.NET MVC 2 and Web Forms for optimal application architecture.</li>
+                    <li>Integrated client-side scripting (JavaScript) and Microsoft ADO.NET for data management.</li>
+                    <li>Managed databases (SQL Server, MS Access), developed WCF services, and custom controls.</li>
+                    <li>Ensured application security, state management, and efficient debugging/deployment.</li>
+                    <li>Employed third-party control toolkits (Telerik Rad Controls, AJAX Toolkit).</li>
+                    <li>Developed and integrated reports using Crystal Reports and Microsoft Reporting Services.</li>
+                    <li>Maintained focus on ASP.NET, AJAX, JQuery, and JavaScript technologies.</li>
+                    <li>Used various Web Forms' Control Toolkits for enhanced functionality.</li>
+                    <li>Designed page layouts using HTML5, CSS, etc.</li>
+                </ul>
+                <br>
+                <h5>Desktop Development Tools and Skills</h5>
+                <ul>
+                    <li>Utilized VB .Net, C#, and associated technologies for programming tasks.</li>
+                    <li>Developed applications using WPF and Win Forms, emphasizing effective UI design.</li>
+                    <li>Integrated and managed databases (SQL Server, MS Access) to support application functionality.</li>
+                    <li>Created interfaces with Extensible Application Markup Language (XAML) to enhance user experience.</li>
+                    <li>Programmed against the WPF and Win Form Object Model for seamless application development.</li>
+                    <li>Executed debugging, secured applications, and managed project setup and deployment processes.</li>
+                    <li>Employed third-party control toolkits like Telerik Rad Controls for enhanced functionality.</li>
+                    <li>Developed and integrated reports using Crystal Reports and Microsoft Reporting Services.</li>
+                </ul>
+                <br>
+                <h5>Database Development Tools and Skills</h5>
+                <ul>
+                  <li>Analyzed data requirements and formulated databases to meet specifications.</li>
+                  <li>Administered and managed databases with a focus on efficiency.</li>
+                  <li>Executed queries and manipulated data for optimal database performance.</li>
+                  <li>Leveraged SQL Server functionalities, including views and diagrams.</li>
+                  <li>Utilized scripts, stored procedures, and programmability options for enhanced functionality.</li>
+                  <li>Examined application data requirements and designed corresponding database structures.</li>
+                  <li>Oversaw the management, security, backup, and restoration of databases.</li>
+                  <li>Integrated and manipulated databases programmatically to meet application needs.</li>
+                  <li>Employed tables, views, stored procedures, and other features effectively.</li>
+                </ul>
+              </article>
+            </section>
+
+            <section id="OtherProjects">
+              <h2>Other Projects</h3>
+              <article>
+                <ol>
+                  <li>Created a desktop application for Striker Bowling Clubs.</li>
+                  <li>Developed a point-of-sale desktop application for Striker Restaurant.</li>
+                  <li>Implemented an HR management information system for Television One.</li>
+                  <li>Designed and developed the website for Balhika Travel & Tours at <a href="https://balhika.af" target="_blank">https://balhika.af/.</a></li>
+                </ol>
+              </article>
+          </section>
+
+
+          <section id="skills">
+            <h2>Skills</h2>
+            <article>
+              <ul>
+                <li>.NET MAUI Desktop / Mobile Application</li>
+                <li>UWP (Universal Windows Plateform)</li>
+                <li>>WPF (Windows Presentation Foundation)</li>
+                <li>WinForms</li>
+                <li>.Net Core</li>
+                <li>ADO .NET</li>
+                <li>ASP .NET</li>
+                <li>C# / Visual Basic .NET</li>
+                <li>SQL Server</li>
+                <li>SQL LocalDB Express</li>
+                <li>EF Core ORM</li>
+                <li>Crystal Report</li>
+                <li>Telerik Controls</li>
+                <li>Telerik Reports</li>
+                <li>Bold Reports</li>
+                <li>Git Hub</li>
+                <li>HTML, JavaScript</li>
+                <li>REST API</li>
+                <li>BootStrap</li>
+                <li>Telerik Controls</li>
+                <li>Web Views</li>
+                <li>WVVM</li>
+                <li>Entity Framework</li>
+                <li>Web Services</li>
+                <li>XML Schema</li>
+                <li>CSS</li>
+                <li>Adobe Fireworks</li>
+              </ul>
+            </article>
+        </section>
+
+            <section id="education">
+                <h2>Education</h2>
+              <article>
+                <ul>
+                    <li>
+                        <h3>MSc Computer Science</h3>
+                        <p>Edwards College Peshawar - 2007</p>
+                    </li>
+                    <li>
+                      <h3>BSc Computer Science</h3>
+                      <p>BRAINS Degree Colleage - 2004</p>
+                    </li>
+                    <li>
+                      <h3>FA Inter-Science</h3>
+                      <p>Peshawar Degree College - 2002</p>
+                    </li>
+                    <li>
+                      <h3>SSC (Science Group)</h3>
+                      <p>Govt High School No 2 - 2000</p>
+                    </li>
+                </ul>
+              </article>
+            </section>
+
+            <section id="certifications">
+                <h2>Certifications</h2>
+                <article>
+                <ul>
+                    <li>Microsoft Certified Solution Developer (MCSD)</li>
+                    <li>Microsoft Certified Professional (MCP)</li>
+                </ul>
+              </article>
+            </section>
+
+            <section id="Achievements">
+                <h2>Achievements, Awards and Certificates</h2>
+                <article>
+                    <ul>
+                      <li>Certificate of Appreciation for developing a Learning Management System by Vice-Chancellor, Kardan University May 2021.</li>
+                      <li> Best Team Leader award, 2021.</li>
+                      <li> One decade of outstanding service appreciation shield award by Chancellor, Kardan University, December 2017.</li>
+                      <li> Certificate of Appreciation from the English Department for developing a computerized system, June 2017.</li>
+                      <li> Excellence in Service Award Certificate by Chancellor, Kardan University, Dec 31, 2014.</li>
+                      <li> Achievement Award from Kardan University, 2012-13.</li>
+                      <li> Over All Best Performance Award Kardan University, 2012.</li>
+                      <li> Best Performance Award, Kardan University, 2008.</li>
+                      <li> Best Software Engineer award from Kardan University, 2007.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: AQureshi84@yahoo.com</p>
+                <p>Phone: +92 345 90 89 409</p>
+                <p>Location: Peshawar - Pakistan</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/alauddin-qureshi-14940018a/">https://www.linkedin.com/in/alauddin-qureshi-14940018a/</a></p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Alauddin Qureshi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
